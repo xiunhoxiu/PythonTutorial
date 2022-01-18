@@ -1,20 +1,13 @@
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-        # init is short for initialize
-        # this is the function/method that get called
-        # when we create a new point object.
-        # self is a reference to the current object.
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def talk(self):
+        print(f"Hi, I am {self.name}")
 
 
-    def move(self):
-        print("move")
+john = Person("John Smith")
+john.talk()
 
-    def draw(self):
-        print("draw")
-
-
-point = Point(10, 20) # creating a new object, self will reference that object in memory.
-print(point.x)
-print(point.y)
+bob = Person("Bob Smith")
+bob.talk()
