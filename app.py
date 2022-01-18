@@ -18,4 +18,3 @@ dog1.walk()  # inherent
 dog1.bark()
 cat1 = Cat()
 cat1.walk()  # inherent
-cat1.be_annoying()
