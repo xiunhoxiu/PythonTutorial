@@ -1,2 +1,5 @@
-from ecommerce.shipping import calc_shipping
-calc_shipping()
+import random
+
+members = ['John', 'Mary', 'Bob', 'Mosh']
+leader = random.choice(members)
+print(leader)
